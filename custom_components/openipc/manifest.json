@@ -12,22 +12,22 @@
     "http"
   ],
   "documentation": "https://github.com/Ripthulhu/OpenIPC-HASS",
-  "issue_tracker": "https://github.com/Ripthulhu/OpenIPC-HASS/issues",
   "integration_type": "device",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/Ripthulhu/OpenIPC-HASS/issues",
   "requirements": [
     "aiohttp>=3.8.0",
     "async-timeout>=4.0.0",
     "aiofiles>=23.2.0",
     "beward==1.1.4"
   ],
-  "version": "2.3.3",
   "ssdp": [
     {
       "st": "urn:schemas-upnp-org:device:Basic:1",
       "manufacturer": "OpenIPC"
     }
   ],
+  "version": "2.3.3",
   "zeroconf": [
     "_openipc._tcp.local.",
     "_http._tcp.local.",
